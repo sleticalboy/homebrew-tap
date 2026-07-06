@@ -1,22 +1,22 @@
 class LazyMcpWrapper < Formula
   desc "Lightweight lazy stdio MCP proxy and shared daemon"
   homepage "https://github.com/sleticalboy/lazy-mcp-wrapper"
-  version "0.3.3"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sleticalboy/lazy-mcp-wrapper/releases/download/v0.3.3/lazy-mcp-wrapper-darwin-arm64.tar.gz"
-      sha256 "1f0b9a35a3e65aa56b2c64da300b5d1cfdadfd8d5109048b8b84c27603afaf67"
+      url "https://github.com/sleticalboy/lazy-mcp-wrapper/releases/download/v0.4.0/lazy-mcp-wrapper-darwin-arm64.tar.gz"
+      sha256 "965189aa696c0575853c4e394aa1f4d454402c889bc57e66acafe5526215b084"
     else
-      url "https://github.com/sleticalboy/lazy-mcp-wrapper/releases/download/v0.3.3/lazy-mcp-wrapper-darwin-amd64.tar.gz"
-      sha256 "13ee4838b98dbb3bdf16a44fce43c5ce6c3626a68cdfe75d89cec5c2f0663c9f"
+      url "https://github.com/sleticalboy/lazy-mcp-wrapper/releases/download/v0.4.0/lazy-mcp-wrapper-darwin-amd64.tar.gz"
+      sha256 "48cc43de294592c0ce6b1475750ca62cf5cfda8d184b9adf30eb287c1a7a9f12"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/sleticalboy/lazy-mcp-wrapper/releases/download/v0.3.3/lazy-mcp-wrapper-linux-amd64.tar.gz"
-      sha256 "68cd1337511b8f56f532426fc58739e5c93472de24acc853421993a49d89f38d"
+      url "https://github.com/sleticalboy/lazy-mcp-wrapper/releases/download/v0.4.0/lazy-mcp-wrapper-linux-amd64.tar.gz"
+      sha256 "346050fb7997c5b962f15efc3256b53683b35bd654a77948010a967002374f2b"
     end
   end
 
