@@ -5,25 +5,25 @@ class Codeinsight < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.5/codeinsight-aarch64-apple-darwin.tar.gz"
-      sha256 "852a32c6c21210e8fbafa206e83013d7f68093033285f34860f3b8319aea1d62"
+      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.6/codeinsight-aarch64-apple-darwin.tar.gz"
+      sha256 "19b955da68cd085e941eaf396c8a2890575e2813142a28ad59536a1c8f8d4701"
     end
 
     on_intel do
-      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.5/codeinsight-x86_64-apple-darwin.tar.gz"
-      sha256 "d2e86842d0d06b810d83a61780173fb4f5c8addecf90a9f1838a8f617169efcf"
+      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.6/codeinsight-x86_64-apple-darwin.tar.gz"
+      sha256 "db010c1490f1504d10a17d75bbf10ccc038a89bfd96b6bb637da516c533df79e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.5/codeinsight-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e3657d2b8769e75816cdde7735ab45e23df1dcf877ce97233ca671e7bacf79a8"
+      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.6/codeinsight-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a9467ccc8f551769d333189628f15ebd8fc1cc846e8e43ae7bfba575f8539a1e"
     end
 
     on_intel do
-      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.5/codeinsight-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d1515b3bb6817dcb03797e07ff6ad230c7198dc640ed08dbdc3cae6f3ddf454f"
+      url "https://github.com/sleticalboy/CodeInsight-mcp/releases/download/v0.1.6/codeinsight-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d7a5c1df2397cf92205396438e63c8736676d07a41894afd6aa19e9fc8227fe8"
     end
   end
 
